@@ -12,7 +12,7 @@ const MainContainer = ({title,data,responsive}) => {
     return (
         <>
 
-            <div className="container-fluid main">
+            <div className="container-fluid main mt-3">
                 <div className="row first mb-2 mt-2">
                     <div className="col">
                         <h4>{title}</h4>

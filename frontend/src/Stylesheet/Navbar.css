@@ -1,0 +1,60 @@
+
+
+.maindiv{
+    background-color:#427AE9;
+}
+.col-md-3,
+.col-md-2,
+.col-md-5
+{
+    /* border: 1px solid red; */
+    padding: 0;
+}
+.logo{
+    max-width: 30%;
+    object-fit: cover;
+    margin-left: 50%;
+}
+
+.inputwrapper{
+    width: 100%;
+}
+.inputbox{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+
+
+.userIcon{
+    color: whitesmoke;
+}
+
+.dropdown h5{
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+
+
+.cartIcon{
+    /* color: black; */
+    color: whitesmoke;
+}
+.cartBtn{
+    border: 1px solid red;
+    width: 20%;
+    /* background-color: black; */
+    
+}
+.badge{
+    width: 70%;
+    color: blue;
+}
