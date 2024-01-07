@@ -1,22 +1,30 @@
 
 export const responsive = {
     superLargeDesktop: {
-        breakpoint: { max: 4000, min: 1542 },
-        items: 8
+      breakpoint: { max: 4000, min: 1542 },
+      items: 8
     },
     desktop: {
-        breakpoint: { max: 1542, min: 1060 },
-        items: 5
+      breakpoint: { max: 1542, min: 1350 },
+      items: 6
     },
-    tablet: {
-        breakpoint: { max: 1060, min: 464 },
-        items: 2
+    tabletLandscape: {
+      breakpoint: { max: 1350, min: 900 },
+      items: 4
     },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
+    tabletPortrait: {
+      breakpoint: { max: 900, min: 600 },
+      items: 3
+    },
+    mobileLandscape: {
+      breakpoint: { max: 600, min: 400 },
+      items: 2
+    },
+    mobilePortrait: {
+      breakpoint: { max: 400, min: 0 },
+      items: 1
     }
-};
+  };
 export const earRingsData = [
     {
         title:'Ear Rings',
