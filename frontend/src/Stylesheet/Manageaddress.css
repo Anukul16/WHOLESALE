@@ -1,0 +1,9 @@
+
+
+.ma-second-row{
+    /* border: 0.2px solid gray; */
+    color: #427AE9;
+}
+.ma-second-row:hover{
+    cursor: pointer;
+}

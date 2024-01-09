@@ -1,0 +1,96 @@
+
+.cols{
+    border: 2px solid red;
+    background-color: whitesmoke;
+}
+
+.userdiv p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+.userimg-div {
+    border: 1px solid red;
+    width: 25%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userimg {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.uls li{
+    text-decoration: none;
+    list-style: none;
+    margin-top:20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+.first-row h5,
+    .first-row h6,
+    .fourth-row h5,
+    .fourth-row h6,
+    .fifth-row h5,
+    .fifth-row h6 {
+        display: inline;
+        margin-right: 5%; /* Add some margin to separate the elements */
+}
+
+.first-row h6,
+.fourth-row h6,
+.fifth-row h6{
+    color: #427AE9;
+}
+.first-row h6:hover,
+.fourth-row h6:hover,
+.fifth-row h6:hover{
+    cursor:pointer;
+}
+
+.second-row input,
+.fourth-row input,
+.fifth-row input {
+    width: 30%;
+    height: 50px;
+    margin-right: 15px;
+}
+.second-row button ,
+    .fourth-row button,
+    .fifth-row button{
+    width: 15%;
+    height: 50px;
+    background-color: #427AE9;
+    border: none;
+    color: whitesmoke;
+    font-size: medium;
+}
+
+
+
+.third-row input[type="radio"] {
+    transform: scale(1.5); 
+    margin-right: 10px; 
+}
+.fourth-row input{
+    width: 30%;
+    height: 50px;
+}
+
+
+.lis{
+   text-decoration: none;
+}
+.active{
+    /* background-color: lightgrey; */
+    /* color:#427AE9 ; */
+    /* background-color: transparent !important; */
+  /* color: inherit !important; */
+}
