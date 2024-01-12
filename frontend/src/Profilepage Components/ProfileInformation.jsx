@@ -9,7 +9,7 @@ const ProfileInformation = () => {
 
     return (
         <>
-            <div class="personal-information">
+            <div className="personal-information">
 
                 <div className="first-row">
                     <h5>Personal Information</h5>
