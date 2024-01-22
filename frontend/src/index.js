@@ -5,14 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './Stylesheet/App.css'
+import AddressContext from './ContextReducer/AddressContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <App />
+    <AddressContext>
+      <Router>
+        <App />
 
-    </Router>
+      </Router>
+    </AddressContext>
 
   </React.StrictMode>
 );

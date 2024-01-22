@@ -1,0 +1,35 @@
+/* styles.css */
+
+.inputdiv {
+    /* border: 1px solid red; */
+    /* width: 100%; */
+  }
+  
+  .address {
+    /* border: 2px solid red; */
+    background-color: #F5FAFF;
+  }
+  
+  .inputstyle {
+    height: 50px;
+    width: 35%;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .radiostyle {
+    input[type="radio"] {
+      transform: scale(1.3);
+      margin-right: 15px;
+    }
+  }
+  
+  .savebuttonstyle {
+    width: 30%;
+    height: 50px;
+    background-color: #2874F0;
+    color: whitesmoke;
+    border: none;
+    font-weight: 500;
+  }
+  
